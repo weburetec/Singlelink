@@ -33,13 +33,13 @@ const Home: NextPage = () => {
     <div className='flex flex-col items-center justify-center w-full min-h-screen bg-gray-100'>
       <Head>
         <title>Login - Singlelink</title>
-        <meta name="description" content="Login to your Singlelink dashboard." />
+        <meta name="description" content="Login to your Wooftop dashboard." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <div className='flex flex-col items-center justify-center w-full max-w-md p-8 rounded-xl bg-white shadow'>
       <div className='mb-6' style={{width: 44}}><Logo/></div>
-        <h1 className='font-semibold text-2xl mb-4'>Login to your Singlelink</h1>
+        <h1 className='font-semibold text-2xl mb-4'>Login to your Wooftop</h1>
         <p className=' mb-6 text-gray-600'>Enter your credentials to access your account</p>
         <input value={password} onChange={(e) => setPassword(e.target.value)} className='mb-4 px-5 py-3 rounded-lg border border-gray-200 w-full bg-white focus:ring-4 focus:ring-opacity-50 focus:ring-indigo-600 outline-0 ring-offset-2 focus:border-gray-1' type="password" placeholder="Password"/>
         <button onClick={() => login[0]({
@@ -49,7 +49,7 @@ const Home: NextPage = () => {
         })} className='px-8 py-4 text-xl bg-indigo-600 w-full text-white font-semibold rounded-xl hover:bg-indigo-700'>Log in</button>
       </div>
       <div onClick={() => {alert('To reset your password, change the environment variable for PASSWORD in your SSH or terminal and restart your application.')}} className='text-gray-600 mt-12'>Forgot your password?<a className='ml-2 text-indigo-600 font-semibold hover:underline hover:text-indigo-700 cursor-pointer'>Reset password</a></div>
-      <div className='text-gray-600 mt-4 text-xs'>Copyright ©{new Date().getFullYear()} Neutron Creative Inc. All rights reserved.</div>
+      <div className='text-gray-600 mt-4 text-xs'>Copyright ©{new Date().getFullYear()} Webure Technologies. All rights reserved.</div>
 
     </div>
   )
