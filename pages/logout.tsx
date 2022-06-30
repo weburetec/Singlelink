@@ -18,7 +18,7 @@ const Home: NextPage = () => {
     <div className='flex flex-col items-center justify-center w-full min-h-screen bg-gray-100'>
       <Head>
         <title>Log out - Singlelink</title>
-        <meta name="description" content="Log out of your Singlelink dashboard." />
+        <meta name="description" content="Log out of your Wooftop dashboard." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
     </div>
