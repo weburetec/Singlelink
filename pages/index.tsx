@@ -71,7 +71,7 @@ const Home = ({ links }: { links: LinkType[]}) => {
         if(link?.type === 'html')
           return (<div key={link.id}>{parse(link.content)}</div>)
       })}
-      {process.env.BRANDING && <div className='text-gray-600 mt-auto mt-10 text-center'>Build your free micro-site in seconds with <a href="https://weburetech.co" className='font-medium text-indigo-600 hover:underline hover:text-indigo-700'>Wooftop</a></div>}
+      {process.env.BRANDING && <div className='text-gray-600 mt-auto mt-10 text-center'>Build your free micro-site in seconds with <a href="https://wooftop-production-01ee.up.railway.app/login" className='font-medium text-indigo-600 hover:underline hover:text-indigo-700'>Wooftop</a></div>}
     </div>
     </>
   )
